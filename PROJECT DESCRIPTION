@@ -1,0 +1,20 @@
+This project details a comprehensive, semester-long development roadmap for an Intelligent Campus Assistance System, transitioning from a software-based NLP chatbot to hardware-integrated IoT solutions.
+The curriculum is structured into three distinct phases: Natural Language Processing (NLP), Conversational Intelligence, and Embedded Systems & Data Analytics.
+
+Phase 1: Foundation & NLP (January)
+The initial month focuses on building the core engine of a retrieval-based chatbot.
+Core Tasks: Developing a rule-based responder using pattern matching and implementing a text preprocessing pipeline involving tokenization and stopword removal.
+Advanced Retrieval: Moving beyond keywords to utilize TF-IDF (Term Frequency-Inverse Document Frequency) to calculate similarity between student queries and a stored FAQ database.
+Intent Classification: Defining specific "intent buckets" (e.g., admissions, scholarships) and training a machine learning classifier to route queries correctly.
+
+Phase 2: Conversational Intelligence (February)
+This phase elevates the bot from a single-turn responder to a context-aware assistant.
+Entity Extraction: Implementing Named Entity Recognition (NER) to pull specific data points like course codes, dates, and semester numbers from natural language.
+Contextual Awareness: Developing logic to handle multi-turn conversations, allowing the bot to "remember" previous inputs for follow-up questions.
+Reliability: Establishing fallback strategies for out-of-scope questions and designing a multichannel deployment mockup for platforms like WhatsApp or web apps.
+
+Phase 3: IoT Automation & Data Science (March – April)
+The project shifts to physical automation and handling real-world sensor data.
+Hardware Integration: Designing automated systems using IR proximity sensors, ultrasonic sensors, and servos for tasks like smart door automation and forklift safety alerts.
+Inventory & Logistics: Utilizing capacitive and inductive sensors for vending machine dispensing and assembly line object counting.
+Data Analytics: Cleaning and visualizing sensor datasets from Kaggle to perform warehouse collision avoidance and trend analysis using libraries like Pandas and Matplotlib.
