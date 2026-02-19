@@ -6,7 +6,6 @@ Code: Use re.search() to identify intents regardless of word order.
 
 import re
 import json
-
 # Rule-based Knowledge Base
 RULES = {
     r"(cost|price|fees?|tuition)": "Annual tuition is $5,000.",
